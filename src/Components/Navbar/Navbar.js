@@ -20,8 +20,8 @@ const Navbar = () => {
         <div className={`nav-links ${isOpen ? 'open' : ''}`}>
           <Link to="/" className="nav-item" onClick={toggleNavbar}>Home</Link>
           <Link to="/products" className="nav-item" onClick={toggleNavbar}>Product</Link>
-          <Link to="/design" className="nav-item" onClick={toggleNavbar}>Design Your Dress</Link>
           <Link to="/contact" className="nav-item" onClick={toggleNavbar}>Contact</Link>
+          <Link to="/login" className="nav-item" onClick={toggleNavbar}>Login</Link>
         </div>
         <div className="navbar-toggle" onClick={toggleNavbar}>
           <span className="toggle-icon">&#9776;</span>
